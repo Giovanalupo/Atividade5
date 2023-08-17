@@ -1,7 +1,7 @@
 document.getElementById("checkButton").addEventListener("click", function() {
     var dateInput = document.getElementById("dateInput").value;
     var date = new Date(dateInput);
-    var month = date.getMonth() + 1; // January is 0
+    var month = date.getMonth() + 1; 
   
     var season = "";
     if (month >= 3 && month <= 5) {
